@@ -1,0 +1,240 @@
+@charset "utf-8";
+#jointop {
+    width: 100%;
+    background: #eee
+}
+
+#jointop>ul {
+    max-width: 1280px;
+    margin: 0 auto
+}
+
+#jointop>ul>li {
+    display: inline-block;
+    padding: 10px 5px
+}
+
+#jointop>ul>li>a {
+    display: block;
+    font-size: 12px;
+    color: #555
+}
+
+#container {
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#container>h2 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-size: 30px;
+    font-weight: 800;
+    color: #555
+}
+
+.infomation_log {
+    max-width: 1100px;
+    margin-left: 200px;
+    color: #888;
+    border: 1px solid #ddd;
+    padding: 50px
+}
+
+.infomation_log>h2 {
+    text-align: center;
+    margin-bottom: 80px
+}
+
+.allbox {
+    padding: 20px
+}
+
+.allbox h3 {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 20px
+}
+
+.allbox input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 5px;
+    outline: none;
+    padding: 0px 5px
+}
+
+.allbox .skinbtn {
+    width: 150px;
+    height: 85px;
+    background: #003d90;
+    border: 1px solid #003d90;
+    color: #fff
+}
+
+.allbox .skinbtn2 {
+    background: #fff;
+    border: 1px solid #000;
+    color: #000
+}
+
+.leftbox {
+    float: left;
+    width: 50%;
+    padding-right: 20px
+}
+
+.save input {
+    width: 20px;
+    height: 20px;
+}
+
+.rightbox {
+    float: left;
+    width: 50%;
+    padding-left: 20px
+}
+
+.loginbox,
+.beloginbox {
+    position: relative;
+}
+
+.loginbox button,
+.beloginbox button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 50px;
+}
+
+.msg {
+    min-height: 17px;
+    padding: 0 0 0 19px;
+    background: #fff url(../images/caution-2.png) no-repeat left 4px;
+    color: #999;
+    line-height: 20px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.other_login {
+    border-bottom: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0px 20px 0px;
+    margin-top: 30px
+}
+
+.sns-login {
+    float: left;
+    width: 25%;
+    height: 100px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #999;
+    line-height: 30px;
+    padding-top: 15px
+}
+
+.sns-login:first-child,
+.sns-login:nth-child(2),
+.sns-login:nth-child(3) {
+    border-right: none
+}
+
+.leftbox .btn {
+    margin-top: 20px
+}
+
+.leftbox .btn .other_btn {
+    float: left;
+    width: 30.33%;
+    background: #fff;
+    color: #555;
+    border: 1px solid #555;
+    height: 50px;
+    margin-right: 1.5%;
+    margin-left: 1.5%
+}
+
+.leftbox .btn .other_btn.on {
+    background: #555;
+    color: #fff
+}
+
+@media only screen and ( max-width:1200px) {
+    #container>h2 {
+        display: none
+    }
+    .infomation_log {
+        margin-left: 0px;
+        color: #888;
+    }
+}
+
+@media only screen and ( max-width:1000px) {
+    .infomation_log {
+        width: 1000px
+    }
+}
+
+@media only screen and ( max-width:760px) {
+    .rightbox {
+        float: left;
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 0px
+    }
+    .leftbox {
+        float: left;
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px
+    }
+    .infomation_log h2 {
+        width: 100%
+    }
+    .allbox .text {
+        width: 100%
+    }
+    .infomation_log {
+        width: 100%
+    }
+}
+
+@media only screen and ( max-width:480px) {
+    .infomation_log {
+        width: 100%;
+        padding: 0px;
+        padding-bottom: 80px;
+    }
+    .infomation_log>h2 {
+        display: none
+    }
+    .allbox .skinbtn {
+        width: 100%;
+        height: 40px;
+    }
+    .loginbox button,
+    .beloginbox button {
+        position: absolute;
+        top: 120px;
+        left: 0;
+    }
+    .other_login {
+        margin-top: 60px;
+    }
+    .leftbox .btn {
+        margin-top: 20px;
+        width: 100%
+    }
+    .msg {
+        display: none
+    }
+}

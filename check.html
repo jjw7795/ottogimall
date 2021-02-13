@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .check {height: 800px; background: url(images/congra.png)no-repeat center center ;
+    background-size: 100% 100%;
+    ;
+    width:100%
+    }
+    .check p {font-size:50px;position:absolute; top:40%;left: 50%;transform: translate(-50%,-50%); 
+    }
+   
+
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/join.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/board.css">
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/slick.css">
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jquery-migrate-1.4.1.js"></script>
+    <script src="js/myscrip.js"></script>
+    <script src="js/slick.js"></script>
+
+</head>
+
+<body>
+    <div id="header cf">
+
+        <div class="logo">
+            <a href="index.html"> <img src="images/logo.jpg" alt=""></a>
+        </div>
+
+
+        <div class="all-category category">
+            <ul class="cf">
+                <li><a href="#none">전체카테고리</a>
+                    <ul class="all_sub">
+                        <li><a href="#none">전체카테고리2</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">카테고리</a></li>
+            </ul>
+        </div>
+
+
+
+        <div class="new-category">
+            <p>제품 카테고리
+                <a href="">
+                    <img src="images/sp_icon.png" alt="">
+                    <img src="images/menu_more.png" alt="">
+                </a>
+
+
+            </p>
+            <div class="prd_cate cf">
+                <ul>
+                    <li><a href="#">3분/간편식</a></li>
+                    <li><a href="#">낫또</a></li>
+                    <li><a href="#">냉동간편식</a></li>
+                    <li><a href="#">냉장면</a></li>
+                    <li><a href="#">다류</a></li>
+                    <li><a href="#">대용량</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">디저트</a></li>
+                    <li><a href="#">떡볶이</a></li>
+                    <li><a href="#">라면류</a></li>
+                    <li><a href="#">마아가린</a></li>
+                    <li><a href="#">만두류</a></li>
+                    <li><a href="#">면류</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">미역</a></li>
+                    <li><a href="#">밥</a></li>
+                    <li><a href="#">분말/프리믹스</a></li>
+                    <li><a href="#">선물세트</a></li>
+                    <li><a href="#">소스류</a></li>
+                    <li><a href="#">식용유/참기름</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">에그존</a></li>
+                    <li><a href="#">이금기</a></li>
+                    <li><a href="#">조미료</a></li>
+                    <li><a href="#">죽</a></li>
+                    <li><a href="#">쨈</a></li>
+                    <li><a href="#">캔</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">컵누들</a></li>
+                    <li><a href="#">타바스코</a></li>
+                    <li><a href="#">탕/국/찌개</a></li>
+                    <li><a href="#">피자/파스타</a></li>
+                    <li><a href="#">홍삼/강황류</a></li>
+                    <li><a href="#">기타</a></li>
+                </ul>
+            </div>
+
+            <p class="new prd_list_tit">신제품
+                <a href="#"><img src="images/new_icon.png"> <img src="images/menu_more.png" class="more"></a>
+            </p>
+
+            <p class="hot prd_list_tit">베스트
+                <a href="#"><img src="images/best_icon.png"> <img src="images/menu_more.png" class="more"></a>
+            </p>
+
+
+
+        </div>
+
+
+
+
+        <div class="search">
+            <form name="frmSearchTop" id="frmSearchTop" method="get" novalidate="novalidate">
+
+                <input type="hidden" name="adUrl" value="https://www.ottogimall.co.kr/goods/goods_list.php?cateCd=031">
+
+                <fieldset>
+                    <legend class="blind">검색폼</legend>
+                    <div>
+
+                        <input type="text" id="search-form" name="keyword" class="keyword" title="신제품 나왔어요!" placeholder="찾으시는 제품 있으신가요?" autocomplete="off">
+                        <input type="image" class="image" id="btnSearchTop" title="검색" value="검색" src="images/search_btn.png" alt="검색">
+
+                        <div class="search-area">
+                            <input type="hidden" name="recentCount" value="10">
+                            <div class="recent-area">
+                                <ul class="recent-list">
+                                    <li class="li-tit">최근검색어</li>
+                                    <li class="no-data">최근 검색어가 없습니다.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+
+        <div class="container">
+            <ul class="cf">
+                <li class="login"><a href="login.html">로그인</a>
+                    <ul class="sub_con cf">
+                        <li><a href="login.html">로그인</a></li>
+                        <li><a href="join.html">회원가입</a></li>
+                    </ul>
+                </li>
+                <li class="cart"><a href="#">장바구니</a>
+                    <ul class="sub_con cf">
+                        <li><a href="">장바구니</a></li>
+                        <li><a href="">찜리스트</a></li>
+                    </ul>
+                </li>
+                <li class="cent"><a href="board1.html">고객센터</a>
+                    <ul class="sub_con cf">
+                        <li><a href="board1.html">고객센터</a></li>
+                    </ul>
+                </li>
+                <li class="re"><a href="report.html">제보</a>
+                    <ul class="sub_con cf">
+                        <li><a href="report.html">제보</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!--모바일 헤더-->
+
+    <div class="m_header">
+        <div class="m_top">
+            <a href="index.html"><img src="images/m_logo.png" alt=""></a>
+            <div class="m_all">
+                <a href=""><img src="images/header_all_logo.png" alt=""></a>
+            </div>
+            <div class="m_bnmenu">
+                <a href="#none"><img src="images/bn_menu.png" alt=""></a>
+            </div>
+            <ul class="cf">
+                <li><a href="">신제품</a></li>
+                <li><a href="">베스트</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--모바일 카페고리-->
+
+
+    <div class="m_category">
+        <div class="top_category">
+            <span class="xbutton"><img src="images/cate_x.png" alt=""> 
+             </span>
+            <span class="logtxt">고객님은 현재 로그아웃 상태입니다.</span>
+            <ul>
+                <li><a href="login.html">로그인</a></li>
+                <li>
+                    <a href="join.html">회원가입</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="middle_category">
+            <ul class="cf">
+                <li>
+                    <a href=""> <img src="images/nav_icon_01.png" alt=""><span>장바구니</span></a>
+                </li>
+                <li>
+                    <a href="board1.html"> <img src="images/nav_icon_02.png" alt=""><span>고객센터</span></a>
+                    </a>
+                </li>
+                <li>
+                    <a href="report.html"> <img src="images/nav_icon_03.png" alt=""><span>제보</span></a>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <nav class="hamburger-gnb">
+            <ul class="dep1">
+                <li class="category-menu-area on">
+                    <button type="button" class="btn-reset gnb-arr block">
+                        <a href="#">
+                            <span class="icon-arr2"></span></a></button>
+                    <a href="#" id="category-menu" class="">제품 카테고리<span>
+                        <img src="images/cate_pul.png" width="100%"></span></a>
+
+                    <ul class="category type- dep2 cf" style="display: block;">
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="001"></button>
+                            <a href="../goods/goods_list.php?cateCd=001" class="sub-icon">3분/간편식</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="003"></button>
+                            <a href="../goods/goods_list.php?cateCd=003" class="sub-icon">기타</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="004"></button>
+                            <a href="../goods/goods_list.php?cateCd=004" class="sub-icon">낫또</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="005"></button>
+                            <a href="../goods/goods_list.php?cateCd=005" class="sub-icon">냉동간편식</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="006"></button>
+                            <a href="../goods/goods_list.php?cateCd=006" class="sub-icon">냉장면</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="007"></button>
+                            <a href="../goods/goods_list.php?cateCd=007" class="sub-icon">다류</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="030"></button>
+                            <a href="../goods/goods_list.php?cateCd=030" class="sub-icon">대용량</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="008"></button>
+                            <a href="../goods/goods_list.php?cateCd=008" class="sub-icon">디저트</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="009"></button>
+                            <a href="../goods/goods_list.php?cateCd=009" class="sub-icon">떡국/떡볶이</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="010"></button>
+                            <a href="../goods/goods_list.php?cateCd=010" class="sub-icon">라면류</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="011"></button>
+                            <a href="../goods/goods_list.php?cateCd=011" class="sub-icon">마아가린</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="012"></button>
+                            <a href="../goods/goods_list.php?cateCd=012" class="sub-icon">만두류</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="013"></button>
+                            <a href="../goods/goods_list.php?cateCd=013" class="sub-icon">면류</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="014"></button>
+                            <a href="../goods/goods_list.php?cateCd=014" class="sub-icon">미역</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="015"></button>
+                            <a href="../goods/goods_list.php?cateCd=015" class="sub-icon">밥/누룽지</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="047"></button>
+                            <a href="../goods/goods_list.php?cateCd=047" class="sub-icon">분말/프리믹스</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="017"></button>
+                            <a href="../goods/goods_list.php?cateCd=017" class="sub-icon">선물세트</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="018"></button>
+                            <a href="../goods/goods_list.php?cateCd=018" class="sub-icon">소스류</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="046"></button>
+                            <a href="../goods/goods_list.php?cateCd=046" class="sub-icon">식용유/참기름</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="052"></button>
+                            <a href="../goods/goods_list.php?cateCd=052" class="sub-icon">에그존</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="051"></button>
+                            <a href="../goods/goods_list.php?cateCd=051" class="sub-icon">이금기</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="020"></button>
+                            <a href="../goods/goods_list.php?cateCd=020" class="sub-icon">조미료</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="021"></button>
+                            <a href="../goods/goods_list.php?cateCd=021" class="sub-icon">죽</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="022"></button>
+                            <a href="../goods/goods_list.php?cateCd=022" class="sub-icon">쨈</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="024"></button>
+                            <a href="../goods/goods_list.php?cateCd=024" class="sub-icon">캔</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="025"></button>
+                            <a href="../goods/goods_list.php?cateCd=025" class="sub-icon">컵누들</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="050"></button>
+                            <a href="../goods/goods_list.php?cateCd=050" class="sub-icon">타바스코</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="026"></button>
+                            <a href="../goods/goods_list.php?cateCd=026" class="sub-icon">탕국찌개</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="049"></button>
+                            <a href="../goods/goods_list.php?cateCd=049" class="sub-icon">피자/파스타</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="002"></button>
+                            <a href="../goods/goods_list.php?cateCd=002" class="sub-icon">홍삼/강황류</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="065"></button>
+                            <a href="../goods/goods_list.php?cateCd=065" class="sub-icon">50주년 스페셜</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-reset gnb-arr" data-key="076"></button>
+                            <a href="../goods/goods_list.php?cateCd=076" class="sub-icon">바다존</a>
+                        </li>
+                    </ul>
+
+                    <hr>
+                </li>
+
+            </ul>
+            <ul class="global-mall-select">
+
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="check">
+    <p>회원가입 완료<br>즐거운 쇼핑 되세요~</p>
+   
+        
+    </div>
+
+   
+
+    <div class="footer">
+
+        <div class="footertop cf">
+            <ul class=leftf>
+                <li><a href="">오뚜기몰소개</a></li>
+                <li><a href="">이용약관</a></li>
+                <li><a href="">개인정보처리방침</a></li>
+                <li><a href="">이메일 무단수집거부</a></li>
+                <li><a href="">대량주문문의</a></li>
+                <li><a href="">오뚜기 온라인팀 연락</a></li>
+            </ul>
+
+            <ul class="rightf">
+                <li><a href="">홈페이지 바로가기</a></li>
+
+            </ul>
+        </div>
+
+        <!--모바일 푸터바틈-->
+        <div class="m_footerbottom">
+            <a href="tel:080-433-8888;" style="display:inline-block;margin-bottom:12px;padding-bottom:3px;border-bottom:2px solid #347ce0;color:#347ce0;font-size:13px;font-weight:900;">
+                <img src="images/mo_call_icon.png" style="width:14px;vertical-align:middle;">전화주문 : 080-433-8888</a><br>
+            <a href="#" style="display:inline-block;margin-bottom:12px;padding-bottom:2px;border-bottom:1px solid #6e6e6e;color:#6e6e6e;font-size:12px;font-weight:900;">오뚜기 온라인팀 연락</a><br>
+            <span style="padding-right:5px;margin-right:5px;border-right:1px solid #959696;">(주) 오뚜기 대표이사 이강훈</span><span>안양시 동안구 흥안대로 405 </span><br>
+            <span class="ft_s" style="margin-top:4px;">고객센터 080-433-8888(월~금 09:00~17:00 / 점심시간 12:30~13:30)</span><br>
+            <address class="ft_copy">COPYRIGHT ottogimall.co.kr. All Rights Reserved.<br></address>
+
+            <a href="http://www.ottogi.co.kr/main/main.asp" target="_blank" class="footer_red_logo"><img src="images/footer_red_logo.png">
+                <strong>홈페이지</strong> 바로가기</a>
+
+            <div class="fixed_cart">
+                <a href="../order/cart.php"><img src="images/fix_cart_icon.png">
+                    <span class="fixed_cart_count">0</span></a>
+            </div>
+            <div class="fixed_back">
+
+                <a href="#none">
+                    <img src="images/btt.png"></a>
+
+            </div>
+        </div>
+
+        <div class="m_footer_search">
+            <div class="ly_head">
+                <form name="frmSearchTop" id="frmSearchTop" action="../goods/goods_search.php" method="get" novalidate="novalidate">
+                    <fieldset>
+                        <legend class="blind">검색하기</legend>
+                        <label for="sch" class="blind">검색</label>
+                        <div class="schipt">
+                            <input type="search" name="keyword" title="오뚜기몰엔 다 있다!" placeholder="오뚜기몰엔 다 있다!" id="sch" autocomplete="off">
+                            <!--<button type="button" class="bn_wrg" style="display:block"><span class="sp">취소</span></button>-->
+                            <button type="submit"><span class="sp">검색</span></button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <!--모바일 끝-->
+        <div class="footerbottom">
+
+            <h1>
+                <a href="#"><img src="images/footlogo.png" alt=""></a>
+            </h1>
+
+            <div class="address">
+                <address>(주) 오뚜기 대표이사 : 이강훈 | (431-070) 안양시 동안구 흥안대로 405  </address>
+                <ul>
+                    <li>
+                        사업자등록번호 : 138-81-03238 | 통신판매업신고 : 제 2003-경기안양-169호
+                    </li>
+                    <li>
+                        건강기능식품 판매업 신고 : 제 2007-00002호 <span>사업자정보공개</span>
+                    </li>
+                </ul>
+                <ul>
+                    <li>개인정보 보호책임 및 청소년보호 책임자 : 강호준</li>
+                    <li><strong>고객센터 : 080-433-8888 (월~금 09:00~17:00 / 점심시간 12:30~13:30)</strong></li>
+                    <li>
+                        팩스번호 : 031-426-5457 | 전자우편 주소 : <button>otgmall@ottogi.co.kr</button>
+                        <p>copyright (c) <strong>ottogimall.co.kr</strong> all rights reserved.</p>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="customer">
+                <p class="tit">고객센터<span style="color:#317be2;margin-left:5px;">( <img src="images/bottom_call_icon.png">전화주문 )</span></p>
+                <p class="tel">080-433-8888</p>
+                <p class="txt">월 - 금 09:00 - 17:00<br>(점심시간 PM 12:30 - PM 13:30)<br>토.일.주말 휴무</p>
+            </div>
+
+            <div class="service">
+                <a href=""></a>
+                <img src="images/es_foot_o.gif" alt="">
+
+                <ul class="cf">
+                    <li>
+                        <a href=""> <img src="images/foot_lg01.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""> <img src="images/foot_lg02.jpg" alt=""></a>
+                    </li>
+                </ul>
+                </a>
+            </div>
+            <div class="fix_back">
+
+                <a href="#none">
+                    <img src="images/btt.png"></a>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

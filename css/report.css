@@ -1,0 +1,193 @@
+@charset "utf-8";
+.report h2 {
+    margin-top: 50px;
+    font-size: 25px;
+    color: #111;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+.report_mbanner {display: none}
+.report_left {float: left;width:50%;padding: 20px}
+.report_left>h2 {
+    position: relative;
+}
+.report_left>h2>a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    font-size: 12px;
+    border: 1px solid #888;
+    padding: 5px 15px
+}
+
+.report_table .col1 {width:20%}
+.report_table .col2 {width:60%}
+.report_table .col3 {width:20%}
+
+.report_table tr {
+    border-top: 1px solid #ddd;
+    width: 100%
+}
+
+.report_table tr:last-child{
+    border-bottom: 1px solid #ddd;
+}
+.report_table th {
+    text-align: left;
+    padding: 5px 23px;
+    font-size: 14px;
+     color: #333;
+     font-weight: bold;
+     background: #eee;
+     border-top:1px solid #888
+}
+.report_table td {
+    padding: 23px;
+    font-size: 12px;
+     color: #333;
+}
+.report_order {
+text-align: center;
+padding:20px}
+
+.report_order button {margin-right:10px;
+background: none;display: inline-block;padding:10px;outline: none}
+.report_order button.on {border:1px solid #003d91}
+
+
+#rList {
+    width: 100%;
+    background: #fff;
+   
+   
+   
+}
+.report-a {width:40%;position: absolute;top:10px;right: 0}
+
+
+.report-a .input>span .text {
+    width: 80%;
+    border: 1px solid #012f6a;
+    float: left;
+    outline: none;
+    height: 25px;
+    
+}
+.report-a .input .base3{display:inline-block;width:20%;height: 25px;}
+.report-a .input .base3 img {margin-top:-25px}
+
+
+/*오른쪽*/
+
+.report_right{
+    float: right;
+    width: 50%;
+    padding: 20px
+}
+
+.report_right>h2 {
+    position: relative;
+    height: 50px;
+}
+
+.report_right>h2>a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    font-size: 12px;
+    border: 1px solid #888;
+    padding: 5px 15px
+}
+
+.report_right>h2 img {
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    margin-right: -5px
+}
+
+
+
+.report_righttable .col1 {
+  width:25%
+}
+.report_righttable .col2{
+width:75%
+}
+.report_righttable tr {border-top:1px solid #888}
+.report_righttable td { text-align: left;
+    padding: 10px 23px;
+    font-size: 14px;
+     color: #333;
+     font-weight: bold;}
+.report_righttable td:first-child {
+   
+     background: #ddd;
+     
+}
+.report_righttable tr:nth-child(4) {
+    height:80px;
+    
+}
+.report_righttable tr:last-child {
+    height:200px;
+    border-bottom: 1px solid #eee
+}
+
+.report_btn {
+
+}
+
+.report_btn {
+    text-align: center;
+    margin-top:30px
+}
+
+.report_btn>button{
+    width: 150px;
+    height: 50px;
+    background: #fff;
+    color: #003d90;
+    border: 1px solid #003d90;
+    outline: none
+}
+
+.report_btn>button.on {
+    background: #003d90;
+    color: #fff
+}
+@media only screen and ( max-width:1000px) {
+   
+
+    .report {
+        width: 900px
+    }
+}
+@media only screen and ( max-width:760px) {
+    .report_btn>button{
+        width: 100px;
+        height: 50px;
+        background: #fff;
+        color: #003d90;
+        border: 1px solid #003d90;
+        outline: none
+    }
+    .report {
+        width: 660px
+    }
+
+}
+
+@media only screen and ( max-width:480px) {
+    .report {width:100%}
+    .report_mbanner {display: block;width:100%}
+    .report_mbanner img {width:100%}
+    .report .report_left {display: none;}
+    .report .report_right {width:100%;padding:0; margin-bottom:30px; }
+   
+}
+

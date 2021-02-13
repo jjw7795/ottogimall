@@ -1,0 +1,396 @@
+@charset "utf-8";
+#jointop {
+    width: 100%;
+    background: #eee
+}
+
+#jointop>ul {
+    max-width: 1280px;
+    margin: 0 auto
+}
+
+#jointop>ul>li {
+    display: inline-block;
+    padding: 10px 5px
+}
+
+#jointop>ul>li>a {
+    display: block;
+    font-size: 12px;
+    color: #555
+}
+
+.m_banner {
+    display: none
+}
+
+#container {
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.left_infomation>h2 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-size: 30px;
+    font-weight: 800;
+    color: #222
+}
+
+.leftboard {
+    position: absolute;
+    top: 150px;
+    left: 0
+}
+
+.leftboard a {
+    display: block;
+    line-height: 40px;
+    font-weight: bold;
+    color: #333
+}
+
+.leftboard>li:hover>a {
+    text-decoration: underline
+}
+
+
+/*고객번호*/
+
+.contect-us {
+    position: absolute;
+    top: 450px;
+    left: 0;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid #ededed;
+}
+
+.contect-us h3 {
+    margin: 0 0 9px;
+    padding: 0 0 9px;
+    background: url(../images/bar-lnb-tit.png) no-repeat left bottom;
+    color: #222;
+}
+
+.contect-us strong {
+    color: #3e3d3c;
+    font-size: 20px;
+}
+
+.contect-us a {
+    color: #3e3d3c;
+    font-size: 11px;
+    display: block
+}
+
+.contect-us ul {
+    padding: 10px 0 0;
+    color: #787878;
+    line-height: 17px;
+}
+
+
+/*뱅크*/
+
+.bank {
+    position: absolute;
+    top: 650px;
+    left: 0;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid #ededed;
+}
+
+.bank h3 {
+    margin: 0 0 15px;
+    padding: 0 0 9px;
+    background: url(../images/bar-lnb-tit.png) no-repeat left bottom;
+    color: #222;
+}
+
+.bank p {
+    padding: 0 0 3px;
+    color: #787878;
+    line-height: 22px;
+}
+
+.bank p strong {
+    color: #333;
+}
+
+.bank>strong {
+    color: #444;
+    font-size: 16px;
+}
+
+.content {
+    max-width: 1100px;
+    margin-left: 200px;
+    color: #888;
+    border: 1px solid #ddd;
+    padding: 50px
+}
+
+.content .image_banner {
+    width: 100%
+}
+
+.content .image_banner>li {
+    float: left;
+    width: 33.33%
+}
+
+.content .image_banner>li img {
+    width: 100%
+}
+
+#frmList {
+    width: 100%;
+    background: #fff;
+    margin-top: 50px;
+    border-top: 1px solid #222
+}
+
+.col-a {
+    background: #fafafa;
+    ;
+    border: 1px solid #ddd;
+    padding: 30px
+}
+
+.col-a>.h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #111;
+    margin: 0 0 25px 0;
+}
+
+.col-a .input {
+    transform: translateX(30%)
+}
+
+.col-a .input>span .text {
+    width: 35%;
+    border: 2px solid #012f6a;
+    float: left;
+    outline: none;
+    height: 50px;
+    padding: 10px
+}
+
+.skinbtn.base3.faq-search {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    background-color: #022f6a;
+    border: 1px solid #022f6a;
+    box-sizing: border-box;
+    float: left;
+    margin-left: -2px;
+    margin: 0 auto
+}
+
+
+/*공지사항영역*/
+
+.question h2 {
+    margin-top: 50px;
+    font-size: 25px;
+    color: #111;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.question_left {
+    float: left;
+    width: 50%;
+    padding: 20px
+}
+
+.question_right {
+    float: right;
+    width: 50%;
+    padding: 20px
+}
+
+.question .left_p {
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    font-size: 12px;
+    color: #333;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+}
+
+.question .left_p span {
+    background: url(../images/icon-toggle.png)no-repeat;
+    width: 10px;
+    height: 10px;
+    text-indent: -9999px;
+    display: inline-block;
+    background-position: 0px 4.5px;
+    position: absolute;
+    top: 25px;
+    right: 10px
+}
+
+.question_sub {
+    width: 100%;
+    padding: 30px;
+    border-top: 1px solid #ddd;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    background: papayawhip
+}
+
+.question_sub p {
+    margin-top: 20px;
+    line-height: 20px
+}
+
+.question_right>h2 {
+    position: relative;
+}
+
+.question_right>h2>a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    font-size: 12px;
+    border: 1px solid #888;
+    padding: 5px 15px
+}
+
+.question_right>h2 img {
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    margin-right: -5px
+}
+
+.board_table {}
+
+.board_table .col1 {
+    width: 75%;
+}
+
+.board_table .col2 {
+    width: 25%
+}
+
+.board_table tr {
+    border-top: 1px solid #ddd;
+    width: 100%
+}
+
+.board_table tr td {
+    padding: 23px;
+    font-size: 12px;
+    width: 100%;
+    color: #333;
+}
+
+@media only screen and ( max-width:1000px) {
+    .left_infomation {
+        display: none
+    }
+    .content {
+        margin-left: 0px
+    }
+    .content .image_banner>li {
+        float: left;
+        width: 50%
+    }
+    .content .image_banner>li:last-child {
+        display: none
+    }
+    .question {
+        width: 900px
+    }
+}
+
+@media only screen and ( max-width:760px) {
+    .question_left {
+        float: left;
+        width: 100%;
+        padding: 20px
+    }
+    .question_right {
+        display: none
+    }
+    .question {
+        width: 660px
+    }
+    .col-a .input {
+        transform: none;
+    }
+    .col-a .input>span .text {
+        width: 80%;
+        padding: 10px;
+    }
+}
+
+@media only screen and ( max-width:480px) {
+    .question {
+        display: none
+    }
+    .content {
+        padding: 0px
+    }
+    .content .image_banner {
+        display: none;
+    }
+    #frmList {
+        width: 100%;
+        background: #fff;
+        margin-top: 0px;
+        border-top: none
+    }
+    .col-a {
+        background: none;
+        border: none
+    }
+    .col-a>.h2 {
+        text-align: center;
+        font-weight: bold;
+        color: #111;
+        margin: 0 0 25px 0;
+    }
+    .col-a .input {
+        transform: none
+    }
+    .col-a .input>span .text {
+        width: 85%;
+    }
+    #jointop>ul {
+        width: 100%;
+        text-align: center
+    }
+    #jointop>ul>li:nth-child(1),
+    #jointop>ul>li:nth-child(2) {
+        display: none
+    }
+    #jointop>ul>li>a {
+        font-size: 15px;
+        color: #022f6a;
+        font-weight: bold;
+    }
+    .m_banner {
+        display: block;
+        background: #eee;
+    }
+    .m_banner>ul>li {
+        padding-top: 10px
+    }
+    .banner_left li {
+        display: inline-block;
+        width: 49%;
+    }
+}

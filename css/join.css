@@ -1,0 +1,434 @@
+@charset "utf-8";
+#jointop {
+    width: 100%;
+    background: #eee
+}
+
+#jointop>ul {
+    max-width: 1280px;
+    margin: 0 auto
+}
+
+#jointop>ul>li {
+    display: inline-block;
+    padding: 10px 5px
+}
+
+#jointop>ul>li>a {
+    display: block;
+    font-size: 12px;
+    color: #555
+}
+
+#container {
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.left_information h2 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-size: 30px;
+    font-weight: 800;
+    color: #555
+}
+
+.infomation {
+    max-width: 1100px;
+    margin-left: 200px;
+    color: #888;
+    border: 1px solid #ddd;
+    padding: 50px
+}
+
+.infomation ul {
+    border-bottom: 1px solid #ddd;
+}
+
+.infomation ul>li {
+    display: inline-block;
+    padding-right: 20px;
+    margin-bottom: 20px
+}
+
+.infomation ul>li:nth-last-child(3) {
+    color: #000;
+    font-weight: bold
+}
+
+.infomation ul>li:nth-last-child(2) {
+    color: #000;
+    font-weight: bold
+}
+
+.tabletxt {
+    margin-top: 50px
+}
+
+.tabletxt>h3 {
+    font-size: 20px;
+    color: #555;
+    font-weight: bold;
+    float: left;
+}
+
+.tabletxt>p {
+    float: right;
+    font-size: 14px;
+    position: relative;
+}
+
+.tabletxt>p:before {
+    content: '';
+    display: block;
+    background: url(../images/red_check_icon.png)no-repeat;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 5px;
+    left: -10px
+}
+
+legend {
+    position: static;
+    text-indent: 0px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+table {
+    border-top: 2px solid #004DBB;
+    width: 100%;
+    margin: 20px 0px 30px 0px;
+}
+
+.col1 {
+    width: 30%;
+}
+
+.col2 {
+    width: 30%
+}
+
+.col3 {
+    width: 20%;
+}
+
+.col4 {
+    width: 30%
+}
+
+td {
+    padding: 10px 20px;
+    border-top: 1px dotted #e3e3e3;
+    color: #000;
+    padding: 10px 30px;
+    font-weight: bold;
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+    font-size: 13px
+}
+
+td>input {
+    width: 250px;
+    height: 30px;
+    outline: none;
+}
+
+#idtxt,
+#idi,
+#pass1,
+#pass2,
+#irum,
+#email {
+    width: 230px;
+    height: 30px;
+    outline: none;
+}
+
+#email,
+#domain {
+    width: 100px
+}
+
+.redcheck {
+    background: url(../images/red_check_icon.png)no-repeat 0% 50%
+}
+
+.redche {
+    width: 500px
+}
+
+#emase {
+    width: 150px;
+    height: 30px;
+    margin-left: -30px
+}
+
+#cell {
+    width: 230px
+}
+
+#susin {
+    width: 15px;
+    height: 15px;
+    margin-left: -30px
+}
+
+#susina {
+    width: 15px;
+    height: 15px;
+}
+
+#idcheck {
+    background: transparent;
+    width: 100px;
+    border: 1px solid #004DBB;
+    margin-left: 5px;
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+    color: #004DBB;
+}
+
+#idcheck:hover {
+    background: #004DBB;
+    color: #fff
+}
+
+span {
+    margin-left: 5px
+}
+
+#question,
+#add {
+    width: 600px;
+    height: 30px
+}
+
+#checking {
+    width: 510px;
+    height: 24px
+}
+
+#add1 {
+    width: 120px;
+    height: 30px;
+}
+
+#add2 {
+    background: #555;
+    color: #fff;
+    border: 1px solid #ddd;
+    height: 30px;
+    padding: 5px
+}
+
+
+/*추가정보*/
+
+.addition .col1 {
+    width: 25%;
+}
+
+.addition .col2 {
+    width: 75%
+}
+
+.addtxt {
+    font-size: 20px;
+    color: #555;
+}
+
+#year {
+    height: 30px;
+    background: url(../images/icon-cal.png)no-repeat 100%
+}
+
+#month,
+#day {
+    width: 40px;
+    height: 30px
+}
+
+#man,
+#single {
+    width: 20px;
+    height: 30px;
+}
+
+#woman,
+#merry {
+    width: 20px;
+    height: 30px;
+    margin-left: 20px
+}
+
+#region {
+    width: 500px;
+    height: 30px
+}
+
+#deposit,
+#bank,
+#account {
+    width: 145px;
+    height: 24px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.right .lalala {
+    display: inline-block;
+    width: 70px;
+    height: 24px;
+    font-weight: bold
+}
+
+#category {
+    width: 12px;
+    height: 12px;
+    margin-right: 7px
+}
+
+#category+label {
+    display: inline-block;
+    width: 110px;
+    margin-bottom: 7px
+}
+
+#event {
+    width: 700px
+}
+
+select {
+    outline: none
+}
+
+.btn_join {
+    text-align: center
+}
+
+.btn_join>input {
+    width: 150px;
+    height: 50px;
+    background: #fff;
+    color: #003d90;
+    border: 1px solid #003d90
+}
+
+.btn_join>input.on {
+    background: #003d90;
+    color: #fff
+}
+
+.btn_join>input>em {
+    font-weight: bold;
+}
+
+@media only screen and ( max-width:1200px) {
+    .left_information {
+        display: none
+    }
+    .infomation {
+        margin-left: 0px;
+    }
+    #add {
+        width: 100%;
+        height: 30px
+    }
+    #category+label {
+        display: inline-block;
+        width: 20%;
+    }
+}
+
+@media only screen and ( max-width:1000px) {
+    .m_col {
+        display: block
+    }
+    table td {
+        display: block;
+        width: 100%;
+    }
+    colgroup col {
+        display: block;
+        width: 100%
+    }
+    #category+label {
+        display: inline-block;
+        width: 10%;
+        margin-bottom: 7px
+    }
+    #region2 {
+        width: 100%
+    }
+    #event {
+        width: 100%
+    }
+    #category+label {
+        display: inline-block;
+        width: 90px;
+        margin-bottom: 7px
+    }
+    #susin {
+        margin-left: 5px
+    }
+}
+
+@media only screen and ( max-width:760px) {
+    #category+label {
+        display: inline-block;
+        width: 21%;
+        margin-bottom: 7px
+    }
+    #add {
+        width: 100%
+    }
+    #region {
+        width: 100%
+    }
+    .infomation>ul {
+        display: none
+    }
+}
+
+@media only screen and ( max-width:480px) {
+    .infomation {
+        padding-top: 0px;
+        padding-bottom: 30px;
+        width: 100%
+    }
+    .btn_join {
+        width: 100%
+    }
+    .infomation>ul {
+        display: none
+    }
+    .tabletxt p {
+        width: 100%
+    }
+    #category+label {
+        display: inline-block;
+        width: 40%;
+        margin-bottom: 7px
+    }
+    #jointop>ul {
+        width: 100%;
+        text-align: center
+    }
+    #jointop>ul>li:nth-child(1),
+    #jointop>ul>li:nth-child(2),
+    #jointop>ul>li:nth-child(4),
+    #jointop>ul>li:nth-child(5) {
+        display: none
+    }
+    #jointop>ul>li>a {
+        font-size: 15px;
+        color: #022f6a;
+        font-weight: bold;
+    }
+}
